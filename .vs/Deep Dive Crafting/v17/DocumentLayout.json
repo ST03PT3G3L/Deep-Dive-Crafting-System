@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "L:\\Unity Projects\\Deep Dive Crafting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|L:\\Unity Projects\\Deep Dive Crafting\\assets\\exampleinventoryscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\exampleinventoryscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|l:\\unity projects\\deep dive crafting\\assets\\scripts\\craftingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\craftingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|L:\\Unity Projects\\Deep Dive Crafting\\assets\\craftinginterfaceexamplescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\craftinginterfaceexamplescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|L:\\Unity Projects\\Deep Dive Crafting\\assets\\scripts\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|l:\\unity projects\\deep dive crafting\\assets\\craftobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\craftobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|L:\\Unity Projects\\Deep Dive Crafting\\assets\\scripts\\recipematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\recipematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|L:\\Unity Projects\\Deep Dive Crafting\\assets\\scripts\\materials\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\materials\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|L:\\Unity Projects\\Deep Dive Crafting\\assets\\scripts\\itembasescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itembasescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|L:\\Unity Projects\\Deep Dive Crafting\\assets\\testitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\testitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|L:\\Unity Projects\\Deep Dive Crafting\\assets\\scripts\\recipes\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536616B8-1BDF-C800-C50F-7B78868F911B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\recipes\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CraftObject.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\CraftObject.cs",
+              "RelativeDocumentMoniker": "Assets\\CraftObject.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\CraftObject.cs",
+              "RelativeToolTip": "Assets\\CraftObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:00:40.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CraftingInterfaceExampleScript.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\CraftingInterfaceExampleScript.cs",
+              "RelativeDocumentMoniker": "Assets\\CraftingInterfaceExampleScript.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\CraftingInterfaceExampleScript.cs",
+              "RelativeToolTip": "Assets\\CraftingInterfaceExampleScript.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAswCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:31:45.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExampleInventoryScript.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\ExampleInventoryScript.cs",
+              "RelativeDocumentMoniker": "Assets\\ExampleInventoryScript.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\ExampleInventoryScript.cs",
+              "RelativeToolTip": "Assets\\ExampleInventoryScript.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:15:32.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventoryController.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\InventoryController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:05:27.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CraftingController.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\CraftingController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CraftingController.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\CraftingController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CraftingController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T21:19:08.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestItem.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\TestItem.cs",
+              "RelativeDocumentMoniker": "Assets\\TestItem.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\TestItem.cs",
+              "RelativeToolTip": "Assets\\TestItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T21:00:33.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemBaseScript.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\ItemBaseScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemBaseScript.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\ItemBaseScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemBaseScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T20:57:11.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecipeMaterial.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\RecipeMaterial.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RecipeMaterial.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\RecipeMaterial.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RecipeMaterial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:10:35.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\Recipes\\Recipe.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Recipes\\Recipe.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\Recipes\\Recipe.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Recipes\\Recipe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:01:38.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Material.cs",
+              "DocumentMoniker": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\Materials\\Material.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Materials\\Material.cs",
+              "ToolTip": "L:\\Unity Projects\\Deep Dive Crafting\\Assets\\Scripts\\Materials\\Material.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Materials\\Material.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:54:00.288Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
