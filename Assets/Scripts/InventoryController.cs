@@ -10,9 +10,14 @@ public class InventoryController : MonoBehaviour
 
     public UnityEvent updateInventoryEvent;
 
+    private void Start()
+    {
+        updateInventoryEvent.Invoke();
+    }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             updateInventoryEvent.Invoke();
         }

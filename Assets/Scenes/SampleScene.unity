@@ -687,7 +687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
       propertyPath: recipes.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
       propertyPath: inventoryController
