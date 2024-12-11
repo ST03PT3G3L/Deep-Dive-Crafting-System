@@ -562,11 +562,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1010136693653653559, guid: b5a386829d4a20442876197c36271604, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 455.4181
+      value: 508.3133
       objectReference: {fileID: 0}
     - target: {fileID: 1010136693653653559, guid: b5a386829d4a20442876197c36271604, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1031.1556
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 1010136693653653559, guid: b5a386829d4a20442876197c36271604, type: 3}
       propertyPath: m_LocalPosition.x
@@ -598,11 +598,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1010136693653653559, guid: b5a386829d4a20442876197c36271604, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -714.291
+      value: -705.8424
       objectReference: {fileID: 0}
     - target: {fileID: 1010136693653653559, guid: b5a386829d4a20442876197c36271604, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.4222
+      value: -0.00011826
       objectReference: {fileID: 0}
     - target: {fileID: 1010136693653653559, guid: b5a386829d4a20442876197c36271604, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -686,9 +686,17 @@ PrefabInstance:
       value: CraftingController
       objectReference: {fileID: 0}
     - target: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
+      propertyPath: recipes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
       propertyPath: inventoryController
       value: 
       objectReference: {fileID: 1726648084}
+    - target: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
+      propertyPath: recipes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7cf044f0ac65a2e4aa8de11f60e99022, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -740,11 +748,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4460881419002754604, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 535.7738
+      value: 588.6689
       objectReference: {fileID: 0}
     - target: {fileID: 4460881419002754604, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1043.6499
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4460881419002754604, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -776,11 +784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4460881419002754604, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 667.11304
+      value: 665.66235
       objectReference: {fileID: 0}
     - target: {fileID: 4460881419002754604, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.825
+      value: -0.000049591
       objectReference: {fileID: 0}
     - target: {fileID: 4460881419002754604, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -870,6 +878,18 @@ PrefabInstance:
     - target: {fileID: 4969299120454800456, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
       propertyPath: m_Name
       value: InventoryController
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833781604110961623, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
+      propertyPath: recipeMaterials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833781604110961623, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
+      propertyPath: recipeMaterials.Array.data[1].material
+      value: 
+      objectReference: {fileID: 11400000, guid: abfe4f351f9867a4aac8e59022b50838, type: 2}
+    - target: {fileID: 7833781604110961623, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
+      propertyPath: recipeMaterials.Array.data[1].materialCount
+      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

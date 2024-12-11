@@ -16,7 +16,6 @@ public class TestItem : ItemBase
 
     public override void OnCraft()
     {
-        Debug.Log("Help Me!");
         StartCoroutine("crafted");
     }
 

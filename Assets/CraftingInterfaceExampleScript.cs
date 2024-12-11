@@ -42,7 +42,8 @@ public class CraftingInterfaceExampleScript : MonoBehaviour
             craftingUIObject.recipeData = recipe;
             craftingUIObject.transform.Find("Name").GetComponent<TextMeshProUGUI>().text = recipe.name;
             craftingUIObject.transform.Find("Description").GetComponent<TextMeshProUGUI>().text = recipe.recipeDescription;
-            foreach(RecipeMaterial r in recipe.materials)
+            craftingUIObject.transform.Find("Recipe").GetComponent<TextMeshProUGUI>().text = "";
+            foreach (RecipeMaterial r in recipe.materials)
             {
                 int inventoryCount;
 
@@ -56,7 +57,7 @@ public class CraftingInterfaceExampleScript : MonoBehaviour
                     inventoryCount = mat.materialCount;
                 }
 
-                craftingUIObject.transform.Find("Recipe").GetComponent<TextMeshProUGUI>().text = $"{r.material.name} {inventoryCount}/{r.materialCount}<br>";
+                craftingUIObject.transform.Find("Recipe").GetComponent<TextMeshProUGUI>().text += $"{r.material.name} {inventoryCount}/{r.materialCount}<br>";
             }
             GameObject c = Instantiate(craftingUIObject.gameObject, content.transform);
         }
