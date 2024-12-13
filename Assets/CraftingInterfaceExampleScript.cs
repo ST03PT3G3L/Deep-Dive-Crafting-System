@@ -7,12 +7,6 @@ using UnityEngine;
 public class CraftingInterfaceExampleScript : MonoBehaviour
 {
     [SerializeField]
-    CraftingController craftingController;
-
-    [SerializeField]
-    InventoryController inventoryController;
-
-    [SerializeField]
     CraftObject craftingUIObject;
 
     [SerializeField]
@@ -21,7 +15,7 @@ public class CraftingInterfaceExampleScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        inventoryController.updateInventoryEvent.AddListener(UpdateCraftInterface);
+        InventoryController.Instance.updateInventoryEvent.AddListener(UpdateCraftInterface);
     }
 
     // Update is called once per frame
@@ -37,7 +31,7 @@ public class CraftingInterfaceExampleScript : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        foreach (Recipe recipe in craftingController.recipes)
+        foreach (Recipe recipe in CraftingController.Instance.recipes)
         {
             craftingUIObject.recipeData = recipe;
             craftingUIObject.transform.Find("Name").GetComponent<TextMeshProUGUI>().text = recipe.name;
@@ -47,7 +41,7 @@ public class CraftingInterfaceExampleScript : MonoBehaviour
             {
                 int inventoryCount;
 
-                RecipeMaterial mat = inventoryController.recipeMaterials.FirstOrDefault(rm => rm.material == r.material);
+                RecipeMaterial mat = InventoryController.Instance.recipeMaterials.FirstOrDefault(rm => rm.material == r.material);
                 if (mat == null)
                 {
                     inventoryCount = 0;

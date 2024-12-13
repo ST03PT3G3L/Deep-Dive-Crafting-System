@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c5ba5b6f19b2941a83734775e9ea97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryController: {fileID: 0}
   recipes:
   - {fileID: 11400000, guid: ccc3cf07053ba1f45aa81ab489a58d64, type: 2}
   craftEvent:

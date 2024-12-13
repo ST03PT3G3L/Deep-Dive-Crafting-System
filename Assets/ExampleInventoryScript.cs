@@ -9,15 +9,12 @@ public class ExampleInventoryScript : MonoBehaviour
     TextMeshProUGUI inventoryItem;
 
     [SerializeField]
-    InventoryController inventoryController;
-
-    [SerializeField]
     GameObject content;
 
     // Start is called before the first frame update
     void Start()
     {
-        inventoryController.updateInventoryEvent.AddListener(UpdateInventory);
+        InventoryController.Instance.updateInventoryEvent.AddListener(UpdateInventory);
     }
 
     // Update is called once per frame
@@ -33,7 +30,7 @@ public class ExampleInventoryScript : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        foreach(RecipeMaterial c in inventoryController.recipeMaterials)
+        foreach(RecipeMaterial c in InventoryController.Instance.recipeMaterials)
         {
             if (c.materialCount > 0)
             {
@@ -42,7 +39,7 @@ public class ExampleInventoryScript : MonoBehaviour
             }
             else
             {
-                inventoryController.recipeMaterials.Remove(c);
+                InventoryController.Instance.recipeMaterials.Remove(c);
             }
         }
     }

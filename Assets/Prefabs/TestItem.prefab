@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 606874889622317134}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -199.62001, z: 0}
 --- !u!33 &3266156152084279473
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 606874889622317134}
   - component: {fileID: -6983848437100702277}
   - component: {fileID: 7226747218064941093}
+  - component: {fileID: 3061721285480796508}
   m_Layer: 0
   m_Name: TestItem
   m_TagString: Untagged
@@ -153,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Test Item
   description: Test Item
+  anim: {fileID: 3061721285480796508}
 --- !u!65 &7226747218064941093
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -174,3 +176,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!111 &3061721285480796508
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490008508484356316}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: da26f964af4b9fe46a4a26d38d4ae581, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: da26f964af4b9fe46a4a26d38d4ae581, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0

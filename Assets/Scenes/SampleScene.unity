@@ -490,28 +490,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1010136693653653559, guid: b5a386829d4a20442876197c36271604, type: 3}
   m_PrefabInstance: {fileID: 3907689108267922858}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1726648084 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7833781604110961623, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
-  m_PrefabInstance: {fileID: 7848649829608673954}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3e9fbd2b4728f2449bb0914e3135743, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1913314421 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
-  m_PrefabInstance: {fileID: 4343128342070050841}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c5ba5b6f19b2941a83734775e9ea97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &3907689108267922858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -532,10 +510,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 365511698375092647, guid: b5a386829d4a20442876197c36271604, type: 3}
-      propertyPath: inventoryController
-      value: 
-      objectReference: {fileID: 1726648084}
     - target: {fileID: 1010136693653653559, guid: b5a386829d4a20442876197c36271604, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -685,18 +659,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CraftingController
       objectReference: {fileID: 0}
-    - target: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
-      propertyPath: recipes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
-      propertyPath: inventoryController
-      value: 
-      objectReference: {fileID: 1726648084}
-    - target: {fileID: 8731408498326329267, guid: 48df8b8ff677e574bb8fb8b8dcfd5e2f, type: 3}
-      propertyPath: recipes.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 7cf044f0ac65a2e4aa8de11f60e99022, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -710,14 +672,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1114497143}
     m_Modifications:
-    - target: {fileID: 165299091086536946, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
-      propertyPath: craftingController
-      value: 
-      objectReference: {fileID: 1913314421}
-    - target: {fileID: 165299091086536946, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
-      propertyPath: inventoryController
-      value: 
-      objectReference: {fileID: 1726648084}
     - target: {fileID: 2786413817136325427, guid: e6f68a5225d737c49b05c843337244e2, type: 3}
       propertyPath: m_Name
       value: CraftingInterface
@@ -878,18 +832,6 @@ PrefabInstance:
     - target: {fileID: 4969299120454800456, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
       propertyPath: m_Name
       value: InventoryController
-      objectReference: {fileID: 0}
-    - target: {fileID: 7833781604110961623, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
-      propertyPath: recipeMaterials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7833781604110961623, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
-      propertyPath: recipeMaterials.Array.data[1].material
-      value: 
-      objectReference: {fileID: 11400000, guid: abfe4f351f9867a4aac8e59022b50838, type: 2}
-    - target: {fileID: 7833781604110961623, guid: 803ff2e5a6240ec45b41cabe4de81122, type: 3}
-      propertyPath: recipeMaterials.Array.data[1].materialCount
-      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

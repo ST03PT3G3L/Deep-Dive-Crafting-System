@@ -5,13 +5,23 @@ using UnityEngine;
 
 public class TestItem : ItemBase
 {
-    // Update is called once per frame
+    Animation anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animation>();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             OnUse();
         }
+    }
+    public override void OnUse()
+    {
+        anim.Play("RotateAnimation");
     }
 
     public override void OnCraft()

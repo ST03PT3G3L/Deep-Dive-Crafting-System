@@ -8,9 +8,6 @@ using UnityEngine.Events;
 public class CraftingController : MonoBehaviour
 {
     [SerializeField]
-    InventoryController inventoryController;
-
-    [SerializeField]
     public List<Recipe> recipes = new List<Recipe>();
 
     public UnityEvent<int> craftEvent;
@@ -19,10 +16,13 @@ public class CraftingController : MonoBehaviour
 
     public static CraftingController Instance;
 
-    private void Start()
+    private void Awake()
     {
         Instance = this;
+    }
 
+    private void Start()
+    {
         craftEvent.AddListener(Craft);
     }
 
@@ -40,7 +40,7 @@ public class CraftingController : MonoBehaviour
 
             foreach(RecipeMaterial r in recipe.materials)
             {
-                RecipeMaterial invMat = inventoryController.recipeMaterials.FirstOrDefault(x => x.material == r.material);
+                RecipeMaterial invMat = InventoryController.Instance.recipeMaterials.FirstOrDefault(x => x.material == r.material);
                 if(invMat == null)
                 { return; }
 
@@ -54,13 +54,13 @@ public class CraftingController : MonoBehaviour
             {
                 foreach (RecipeMaterial r in recipe.materials)
                 {
-                    RecipeMaterial invMat = inventoryController.recipeMaterials.Find(x => x.material == r.material);
+                    RecipeMaterial invMat = InventoryController.Instance.recipeMaterials.Find(x => x.material == r.material);
                     invMat.materialCount -= r.materialCount;
                 }
 
                 GameObject craftedItem = Instantiate(recipe.createdItem.gameObject, new Vector3(0, 0, 0), Quaternion.identity);
                 craftedItem.GetComponent<ItemBase>().OnCraft();
-                inventoryController.updateInventoryEvent.Invoke();
+                InventoryController.Instance.updateInventoryEvent.Invoke();
             }
 
         }
